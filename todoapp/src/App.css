@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  overflow: hidden;
+}
+
+h1 {
+  text-align: left;
+  margin: 35px 35px 20px 0;
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.inputfield {
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+button {
+  margin: 20px !important;
+}
+
+.list-todos {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.list-item {
+  border: 1px solid white;
+  background-color: rgba(124, 243, 122, 0.85);
+  border-radius: 10px;
+  height: 70px;
+}
+
+.list-item:hover {
+  background-color: yellow;
+}
+
+.list-text {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.del-edit-btns {
+  margin-top: 15px !important;
+}
+
+.edit-text {
+  padding: 0px;
+}
+
+.save-btn {
+  padding: 2px;
+  font-size: 12px;
+}
+
+.id-sort-btn {
+  margin-left: 0px !important;
+}
+
+.checkbox {
+  margin: 30px 30px 0 15px;
+}
+
+.del-btn {
+  float: right;
+  margin-right: 0 !important;
+}
+
+.dropdown {
+  margin: 20px;
+  margin-top: 0px;
+}
+
+.multidel {
+  float: right;
+  padding: 0px;
+  margin-top: -20px;
+}
+
+.topheader {
+  padding: 0px;
+}
+
+.popup-body {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.popup-footer {
+  border: none;
+}
+
+.overlay {
+  position: fixed;
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  cursor: pointer;
+}
+
+.content {
+  margin: 15% auto;
+  background-color: white;
+  border-radius: 0.25rem;
+  width: 50vw;
+  padding: 2rem;
+  position: relative;
+}
+
+.checkbox-label {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .title > h1 {
+    margin-top: 100% !important;
+  }
+}

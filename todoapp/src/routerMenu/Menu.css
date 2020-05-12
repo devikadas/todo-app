@@ -1,0 +1,56 @@
+.title {
+  left: 30%;
+  right: 30%;
+  position: absolute;
+  text-align: center;
+}
+
+.title h1 {
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.nav-item > a {
+  color: #fff;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item {
+  width: 11.11% !important;
+}
+
+.nav-item:hover {
+  background-color: #17a2b8 !important;
+  border-radius: 5px;
+}
+
+.nav-item:hover a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: table;
+}
+
+.nav-item {
+  display: table-cell;
+  width: 25%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item:hover {
+    background-color: #222 !important;
+  }
+
+  .nav-item:hover a {
+    color: #fff;
+    text-decoration: none;
+  }
+}

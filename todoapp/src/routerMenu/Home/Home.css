@@ -1,0 +1,28 @@
+.boxes-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  place-items: center;
+  background-color: lightgrey;
+  cursor: default;
+}
+
+.box {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: move;
+}
+
+.content {
+  position: relative;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100px;
+  }
+}
